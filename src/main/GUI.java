@@ -20,6 +20,7 @@ import java.util.Arrays;
 import javax.imageio.ImageIO;
 import javax.swing.JApplet;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -59,7 +60,7 @@ public class GUI extends JFrame implements ActionListener, MouseListener,
 	private JButton incBr = new JButton("+");
 	private JButton decBr = new JButton("-");
 	private JScrollPane left = null;
-	
+	private JFileChooser fileChooser = new JFileChooser();
 	
 	public GUI(String path) {
 
