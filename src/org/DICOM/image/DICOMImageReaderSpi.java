@@ -8,7 +8,7 @@ import javax.imageio.stream.ImageInputStream;
 
 
 public class DICOMImageReaderSpi extends ImageReaderSpi {
-  static final String vendorName = "UCLA RIP";
+  static final String vendorName = "DicomR2";
   static final String version = "0.11";
   static final String readerClassName = "org.DICOM.image.DICOMImageReader";
   static final String[] names = {"dicom", "dicm", "dcm"};
